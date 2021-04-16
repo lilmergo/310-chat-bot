@@ -19,7 +19,7 @@ body {
 }
 
 .botchat {
-	height: 250px;
+	height: 400px;
 	width: 40vw;
 	display: flex;
 	justify-content: center;
@@ -37,6 +37,15 @@ body {
 	padding: 15px;
 	margin: 15px;
 	border-radius: 10px;
+}
+.hidden{
+	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+ 	position: fixed;
+ 	top: 80%;
+ 	left: 60%;
+ 	transform: translate(-50%,-50%)
 }
 
 input { 

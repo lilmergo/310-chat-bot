@@ -2,7 +2,8 @@
   "name": "310-chat-bot",
   "version": "1.0.0",
   "description": "Our respository for the COSC 310 Assignments/Project for group 21.",
-  "main": "app.js",
+  "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "jest"
   },

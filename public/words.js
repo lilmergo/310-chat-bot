@@ -122,9 +122,9 @@ const premiumTrackReplies = [
     //1
     ["Awesome! How long would you like to become a member for? You can sign up for a monthly subscription for $9.99/month, or enjoy almost 40% off if you choose our annual subscription plan valued at $5.99/month!"],
     //2
-    ["You are now a premium member on our monthly subscription plan! You will be charged through your account's preffered method of payment. Enjoy our benefits! How else may I assist you?"],
+    ["Monthly plan: You can choose to immediately pay through our PayPal portal, or you will be charged automatically within 48 hours through your account's preffered method of payment. How else may I assist you?"],//print paypal thing here
     //3
-    ["You are now a premium member on our yearly subscription plan! You will be charged through your account's preffered method of payment. Enjoy our benefits! How else may I assist you?"],
+    ["Yearly plan: You can choose to immediately pay through our PayPal portal, or you will be charged automatically within 48 hours through your account's preffered method of payment. How else may I assist you?"],//print paypal thing here
     //4
     ["Maybe another time! How else may I assist you?"],
     //5
