@@ -224,9 +224,9 @@ const talkToOtherTrack = [
 
 const talkToOtherTrackReplies = [
     //0
-    ["Certainly, a customer representative will be in touch shortly through your account's preferred contact method. How else can I assist you?"],//back to main
+    ["Certainly, a customer representative will be in touch shortly through your account's preferred contact method. You could also visit us during office hours at 1555 Banks Rd, Kelowna, BC V1X 7Y8. How else can I assist you?"],//back to main
     //1
-    ["Certainly, an executive will be in touch shortly through your account's preferred contact method. How else can I assist you?"],//back to main
+    ["Certainly, an executive will be in touch shortly through your account's preferred contact method. You could also visit us during office hours at 1555 Banks Rd, Kelowna, BC V1X 7Y8. How else can I assist you?"],//back to main
     ///2
     ["Of course! I am happy to help you with something else, how can I assist?"] //other product, done: BACK TO MAIN TRACK
 ]

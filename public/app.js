@@ -243,6 +243,15 @@ function switchTracks(x, track) {//check if current track need to be switched ba
             globalReplies = replies;
         }
     } else if (track == talkToOtherTrack) {
+        if(x==0||x==1){
+            //print map of office with google static map
+            const messagesContainer = document.getElementById("messages");
+            let map = document.createElement("img");
+            map.id="map";
+            map.src= "https://maps.googleapis.com/maps/api/staticmap?center=49.8888985,-119.4251977&zoom=12&size=450x350&key=AIzaSyCDtR1p_y8iqeiGwvQYYO44Y9SilfWHxzQ";
+            messagesContainer.appendChild(map);
+
+        }
         if (x == 0 || x == 1 || x == 2) {
             globalPrompts = prompts;
             globalReplies = replies;
