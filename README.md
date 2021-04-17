@@ -10,12 +10,13 @@ Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Ch
 ### How to run the program:
 To run the program, download the repository and type node server.js within the console to launch the client on localhost:8080. Visit in your preferred browser (we used Chrome).
 
-#
-#
-#
-#
-#
-#
+# Documentation for Individual Project
+## APIs used
+### PayPal  API  (sandbox  only)
+I chose this API to make the transaction of becoming a premium customer more realistic. The user is given the option to complete payment with a Paypal button once they agree to either a monthly or an annual payment. The Paypal button renders when user says yes to becoming a premium customer, and payment amount for their checkout will be automatically set to either $9.99 or $71.88 depending on whether they chose a monthly or a yearly subscription. Once the transaction is subbmited, this payment shows up in the client's and merchant's sandbox account, and the buttons disappear from the page
+
+### Google Static Maps API 
+I chose this API to provide more visual information to the user, a map showing the business's 'office location' will be displayed when the user asks for contact information of an agent/executive. For future implementation, I would like to implement more APIs to collect the user's actual address and route them to the nearest office on an interactive map.
 
 # Assignment 3 README Documentation
 
