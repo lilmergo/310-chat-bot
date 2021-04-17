@@ -11,6 +11,8 @@ Members include Joshua Medina-Quiaro, Ramisa Mahboob, Fareeha Hayat, Shreyasi Ch
 To run the program, download the repository and type node server.js within the console to launch the client on localhost:8080. Visit in your preferred browser (we used Chrome).
 
 # Documentation for Individual Project
+## Video URL
+https://www.youtube.com/watch?v=tn55ZH760HE&ab_channel=MeganNguyen
 ## APIs used
 ### PayPal  API  (sandbox  only)
 I chose this API to make the transaction of becoming a premium customer more realistic. The user is given the option to complete payment with a Paypal button once they agree to either a monthly or an annual payment. The Paypal button renders when user says yes to becoming a premium customer, and payment amount for their checkout will be automatically set to either $9.99 or $71.88 depending on whether they chose a monthly or a yearly subscription. Once the transaction is subbmited, this payment shows up in the client's and merchant's sandbox account, and the buttons disappear from the page
